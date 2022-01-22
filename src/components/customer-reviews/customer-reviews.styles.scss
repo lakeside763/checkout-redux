@@ -1,0 +1,22 @@
+.customer-reviews {
+  width: calc(100% - 40px);
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    .review-list {
+      display: flex;
+      margin-bottom: 20px;
+
+      .flex-item:first-child {
+        margin-right: 50px;
+      }
+    }
+  }
+}

@@ -1,4 +1,70 @@
-.App {
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: calc(100% - 300px);
+}
+
+.primary-color {
+  color: #0c1164;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.info-btn {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.primary-btn {
+  color: #0c1164;
+  background-color: #2bd4db;
+  border-color: #2bd4db;
+}
+
+.btn-large {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 7px 15px;
+}
+
+.btn-xl {
+  font-weight: 500;
+  font-size: 1.15rem;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +101,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

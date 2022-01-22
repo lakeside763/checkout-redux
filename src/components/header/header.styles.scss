@@ -1,0 +1,34 @@
+.header-bg {
+  background-color: #2bd4db;
+
+  .header {
+    height: 40px;
+    margin: 0px auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .logo-div {
+      width: 250px;
+      font-size: 32px;
+
+      .logo-bold {
+        font-weight: bold;
+      }
+
+      .logo-light {
+        font-weight: lighter;
+      }
+    }
+
+    .menu-links {
+      display: block;
+
+      .options {
+        button {
+          margin-top: 5px
+        }
+      }
+    }
+  }
+}
